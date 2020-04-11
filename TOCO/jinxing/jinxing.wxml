@@ -1,0 +1,16 @@
+<!--pages/jinxing/jinxing.wxml-->
+<view class="first">
+	<text class="texts">时间：2020年3月27日  星期五  22：30 </text>
+	<text class="texts"> 截止时间：2020年3月27日 星期五  22：45 </text>
+	<text class="texts">倒计时：<text class="one">15mins </text></text>
+</view>
+<view class="second">
+	<text class="tone">号码：No.1</text>
+  <text class="ttwo">宿舍：中二#117</text>
+</view>
+<image class="imgs" src='/images/example2.jpg'></image>
+<view class="second">
+	<text class="tone">号码：No.2</text>
+  <text class="ttwo">宿舍：东二#413</text>
+</view>
+<image class="imgs" src='/images/example1.jpg'></image>

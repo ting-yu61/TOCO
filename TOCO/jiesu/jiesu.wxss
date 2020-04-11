@@ -1,0 +1,63 @@
+/* pages/jiesu/jiesu.wxss */
+.first {
+  margin: auto;
+  width: 360px;
+  height: 102px;
+  line-height: 20px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  font-family: Roboto;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.texts {
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 300px;
+  height: 20px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  float: left;
+  font-family: SourceHanSansSC-regular;
+}
+
+.one {
+  color: red;
+}
+
+.second {
+  margin: auto;
+  width: 360px;
+  height: 45px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: left;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.tone{
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 3%;
+  width:40%;
+  height: 20px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  float: left;
+  font-family: SourceHanSansSC-regular;
+}
+.ttwo{
+  text-align: center;
+  margin-top: 3%;
+  width:50%;
+  height: 20px;
+  color: rgba(16, 16, 16, 1);
+  font-size: 14px;
+  float: left;
+  font-family: SourceHanSansSC-regular;
+}
+.imgs {
+  width:360px;
+  height:200px;
+  margin-left:2%;
+  margin-top:2%;
+}

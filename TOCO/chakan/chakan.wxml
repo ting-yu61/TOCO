@@ -1,0 +1,11 @@
+<!--pages/chakan/chakan.wxml-->
+<view class="first">
+	<image class="imgs" src='/images/删除.png'></image>
+	<text class="texts">2020年3月27日 星期五</text>
+	<input type="button" class="buttons" value="查看" />
+</view>
+<view class="second">
+	<image class="imgs" src='/images/删除.png'></image>
+	<text class="texts">2020年3月28日 星期六</text>
+	<input type="button" class="buttons" value="查看" />
+</view>
