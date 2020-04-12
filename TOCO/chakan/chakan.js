@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  onLaunch: function () {
+    wx.showModal({
+      title: '提示',
+      content: '您确认删除记录吗？操作不可恢复!'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
