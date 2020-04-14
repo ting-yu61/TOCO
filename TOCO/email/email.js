@@ -5,27 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-    useremail: "",
+    email:"",
   },
-  
-  inputEmail: function () {
-    var that = this
-    if (that.data.useremail == '') {
+  emailInput: function (e) {
+    this.data.email = e.detail.value
+  },
+  inputEmail: function (e) {
+    if (this.data.email == "") {
       wx.showModal({
         title: '提示',
-        content: '请输入邮箱'
+        content: '请输入邮箱',
+        showCancel: false
       })
     }
     else{
-      wx.redirectTo({
-        url: "/pages/yanzhengma/yanzhengma"
+      wx.navigateTo({
+        url: "../yanzhengma/yanzhengma"
       })
     }
 },
 
-  useremailInput: function (e) {
-    this.data.useremail = e.detail.value
-  },
   /**
    * 生命周期函数--监听页面加载
    */

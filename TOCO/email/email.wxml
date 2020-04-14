@@ -5,7 +5,7 @@
 </view>
 <view>
 	<!--输入邮箱-->
-	<input class="inputs" type="email" placeholder="请输入邮箱" placeholder-class='plas' />
+	<input class="inputs" type="email" placeholder="请输入邮箱" placeholder-class='plas' bindinput="emailInput"/>
 	<!--请求发送验证码按钮-->
 	<button class="buttons" bindtap="inputEmail">发送验证码</button>
 </view>

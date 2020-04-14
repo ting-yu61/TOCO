@@ -4,7 +4,7 @@
 </view>
 <view>
 	<!--输入验证码-->
-	<input class="inputs" type="number" placeholder="请输入邮箱中的验证码" placeholder-class='plas'></input>
+	<input class="inputs" type="number" placeholder="请输入邮箱中的验证码" placeholder-class='plas' bindinput="numInput" />
 	<!--请求提交验证码按钮-->
 	<button class="buttons" bindtap="inputNum">提交验证码</button>
 </view>

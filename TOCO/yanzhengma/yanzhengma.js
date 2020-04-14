@@ -4,30 +4,29 @@ Page({
   /**
    * 页面的初始数据
    */
+  
   data: {
-
-  },
-  data: {
-    usernum: "",
+    num: "",
   },
   
   inputNum: function () {
     var that = this
-    if (that.data.usernum == '') {
+    if (that.data.num == '') {
       wx.showModal({
         title: '提示',
-        content: '请输入验证码'
+        content: '请输入验证码',
+        showCancel: false
       })
     }
     else{
-      wx.redirectTo({
+      wx.navigateTo({
         url: "/pages/xiugaixinxi/xiugaixinxi"
       })
     }
 },
 
-  usernumInput: function (e) {
-    this.data.usernum = e.detail.value
+  numInput: function (e) {
+    this.data.num = e.detail.value
   },
   /**
    * 生命周期函数--监听页面加载
